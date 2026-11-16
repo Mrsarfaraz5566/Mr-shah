@@ -30,11 +30,11 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#home" className="group flex items-center gap-3">
           <div className="relative flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 shadow-[0_0_20px_rgba(52,211,153,0.3)] transition-all duration-300 group-hover:shadow-[0_0_30px_rgba(52,211,153,0.5)]">
-            <span className="font-display text-xl font-bold text-ink">S</span>
+            <span className="font-display text-xl font-bold text-ink">K</span>
           </div>
           <div className="flex flex-col leading-none">
-            <span className="font-display text-lg font-bold text-white tracking-tight">
-              Mr Shah
+            <span className="font-display text-base sm:text-lg font-bold text-white tracking-tight">
+              King_shah720380
             </span>
             <span className="text-[10px] uppercase tracking-[0.25em] text-white/40">
               Travel & Co.
