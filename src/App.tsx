@@ -4,7 +4,7 @@ import CustomCursor from '@/components/CustomCursor';
 import ScrollProgress from '@/components/ScrollProgress';
 import Marquee from '@/components/Marquee';
 import Navbar from '@/components/Navbar';
-import HeroSlider from '@/components/HeroSlider';
+import HeroSection from '@/components/HeroSection';
 import GallerySection from '@/components/GallerySection';
 import AboutSection from '@/components/AboutSection';
 import ContactSection from '@/components/ContactSection';
@@ -31,7 +31,7 @@ export default function App() {
         <main className="min-h-screen bg-ink">
           <Navbar />
           <div id="home">
-            <HeroSlider />
+            <HeroSection />
           </div>
 
           {/* Marquee strip between hero and gallery */}
